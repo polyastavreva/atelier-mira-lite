@@ -3,8 +3,8 @@ Contributors: pavlinastavreva
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
-License: GPLv2 or later
+Stable tag: 1.0.1
+License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A calm, editorial block theme for hair salons, barbers and beauty studios.
@@ -41,7 +41,18 @@ Select the "Book online" button in the Visit section and paste the link to your 
 = How do I change colours and fonts? =
 Appearance → Editor → Styles. The palette is Plum, Rose, Blush, Paper, Olive and Sage.
 
+= Does the theme collect data or connect to other services? =
+No. Atelier Mira Lite does not collect data, set cookies or send requests to other websites. The fonts are bundled with the theme. The only outside link is the "Book online" button, which points to the booking service you choose.
+
 == Changelog ==
+
+= 1.0.1 =
+* Image alt texts now describe the placeholder images correctly.
+* Removed unused JavaScript and CSS left over from the full version.
+* Phone menu: links stay left-aligned and sub-menus are smaller and indented under their parent.
+* The reduced-motion check now loads as a small script file in the head instead of an inline script.
+* Translations: load_theme_textdomain() is called in the theme setup.
+* License field written as GPL-2.0-or-later.
 
 = 1.0.0 =
 * First release.
@@ -72,4 +83,4 @@ License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-DM-Sans.txt)
 Source: https://github.com/googlefonts/dm-fonts
 
 Images in assets/images and in screenshot.png were made for this theme by Pavlina Stavreva.
-License: GPL v2 or later
+License: GPL-2.0-or-later

@@ -15,6 +15,7 @@ define( 'ATELIER_MIRA_LITE_VERSION', wp_get_theme()->get( 'Version' ) );
  * Theme supports and editor styles.
  */
 function atelier_mira_lite_setup() {
+	load_theme_textdomain( 'atelier-mira-lite', get_template_directory() . '/languages' );
 	add_theme_support( 'wp-block-styles' );
 	add_editor_style( 'style.css' );
 }
@@ -25,6 +26,17 @@ add_action( 'after_setup_theme', 'atelier_mira_lite_setup' );
  */
 function atelier_mira_lite_assets() {
 	wp_enqueue_style( 'atelier-mira-lite', get_stylesheet_uri(), array(), ATELIER_MIRA_LITE_VERSION );
+
+	// Tiny script in the head: turns on the photo animations before the page paints,
+	// unless the visitor prefers reduced motion. Loaded as a file, so it works with a strict CSP.
+	wp_enqueue_script(
+		'atelier-mira-lite-motion',
+		get_theme_file_uri( 'assets/js/motion.js' ),
+		array(),
+		ATELIER_MIRA_LITE_VERSION,
+		array( 'in_footer' => false )
+	);
+
 	wp_enqueue_script(
 		'atelier-mira-lite',
 		get_theme_file_uri( 'assets/js/theme.js' ),
@@ -37,14 +49,6 @@ function atelier_mira_lite_assets() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'atelier_mira_lite_assets' );
-
-/**
- * Turn on the photo animations before the page paints, unless the visitor prefers reduced motion.
- */
-function atelier_mira_lite_motion_flag() {
-	wp_print_inline_script_tag( "if(!window.matchMedia||!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('am-anim');}" );
-}
-add_action( 'wp_head', 'atelier_mira_lite_motion_flag', 1 );
 
 /**
  * Block styles and the pattern category.

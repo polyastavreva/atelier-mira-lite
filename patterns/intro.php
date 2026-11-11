@@ -11,7 +11,7 @@
 <!-- wp:group {"align":"full","className":"am-section am-intro","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull am-section am-intro"><!-- wp:group {"align":"wide","className":"am-split","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide am-split"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/studio.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Salon interior with round mirrors and black chairs', 'atelier-mira-lite' ); ?>"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/studio.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Photo placeholder for the studio', 'atelier-mira-lite' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->

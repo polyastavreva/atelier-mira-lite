@@ -68,15 +68,15 @@
 
 <!-- wp:group {"className":"am-collage","layout":{"type":"default"}} -->
 <div class="wp-block-group am-collage"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-1.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Stylist creating an updo for a seated client', 'atelier-mira-lite' ); ?>"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-1.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Large photo placeholder for the hero collage', 'atelier-mira-lite' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-2.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Stylist blow-drying a client&#x27;s hair with a round brush', 'atelier-mira-lite' ); ?>"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-2.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Small photo placeholder for the hero collage', 'atelier-mira-lite' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-3.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Client having her hair washed', 'atelier-mira-lite' ); ?>"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-3.jpg' ) ); ?>" alt="<?php echo esc_attr__( 'Second small photo placeholder for the hero collage', 'atelier-mira-lite' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Atelier Mira Lite 1.0.0\n"
+"Project-Id-Version: Atelier Mira Lite 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/atelier-mira-lite\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-29T08:32:40+00:00\n"
+"POT-Creation-Date: 2026-11-09T08:03:29+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: atelier-mira-lite\n"
@@ -143,15 +143,15 @@ msgid "vegan colour"
 msgstr ""
 
 #: patterns/hero.php:71
-msgid "Stylist creating an updo for a seated client"
+msgid "Large photo placeholder for the hero collage"
 msgstr ""
 
 #: patterns/hero.php:75
-msgid "Stylist blow-drying a client&#x27;s hair with a round brush"
+msgid "Small photo placeholder for the hero collage"
 msgstr ""
 
 #: patterns/hero.php:79
-msgid "Client having her hair washed"
+msgid "Second small photo placeholder for the hero collage"
 msgstr ""
 
 #: patterns/intro.php
@@ -165,7 +165,7 @@ msgid "Photo on the left, a short story about the studio and a signature on the 
 msgstr ""
 
 #: patterns/intro.php:14
-msgid "Salon interior with round mirrors and black chairs"
+msgid "Photo placeholder for the studio"
 msgstr ""
 
 #: patterns/intro.php:19

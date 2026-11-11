@@ -27,4 +27,4 @@ The full version adds team, gallery and review sections, an appointment request 
 
 ## License
 
-GPL v2 or later. Fonts: SIL Open Font License 1.1. © 2026 Pavlina Stavreva.
+GPL-2.0-or-later. Fonts: SIL Open Font License 1.1. © 2026 Pavlina Stavreva.
