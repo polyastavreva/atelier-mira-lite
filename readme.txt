@@ -3,7 +3,7 @@ Contributors: pavlinastavreva
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,9 @@ Atelier Mira (the full version) adds team, gallery and review sections, an appoi
 
 == Frequently Asked Questions ==
 
+= The Imprint link in the footer shows "Page not found" =
+Create a page called Imprint (address: /imprint/) with your legal details. Or open the Footer pattern in the Site Editor and change or remove the link.
+
 = How do I change the photos? =
 The theme comes with soft placeholder images marked "Your photo" in the best size for each spot. Click a photo in the Site Editor, choose Replace and upload yours.
 
@@ -45,6 +48,10 @@ Appearance → Editor → Styles. The palette is Plum, Rose, Blush, Paper, Olive
 No. Atelier Mira Lite does not collect data, set cookies or send requests to other websites. The fonts are bundled with the theme. The only outside link is the "Book online" button, which points to the booking service you choose.
 
 == Changelog ==
+
+= 1.0.2 =
+* Better text contrast: the olive accent and the muted grey are a little darker, so small labels pass WCAG AA on every background.
+* Readme: how to create the Imprint page that the footer links to.
 
 = 1.0.1 =
 * Image alt texts now describe the placeholder images correctly.
