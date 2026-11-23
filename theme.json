@@ -371,6 +371,34 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)"
 				}
+			},
+			"core/post-content": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
+				}
+			},
+			"core/comment-content": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
+				}
 			}
 		}
 	},

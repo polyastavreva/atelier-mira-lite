@@ -1,6 +1,5 @@
 /*
 Theme Name: Atelier Mira Lite
-Theme URI: https://atelier-mira-wp.pages.dev/
 Author: Pavlina Stavreva
 Author URI: https://pavlinastavreva.ch/
 Description: A calm, editorial block theme for hair salons, barbers and beauty studios. The one-page home has a photo collage hero, a scrolling services band, a studio intro, a price menu with durations, and opening hours with a booking button. Everything is edited in the Site Editor, no page builder needed. Fonts are bundled with the theme.
@@ -11,7 +10,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: atelier-mira-lite
-Tags: one-column, wide-blocks, full-site-editing, block-patterns, block-styles, custom-colors, custom-menu, editor-style, threaded-comments, translation-ready, portfolio
+Tags: one-column, wide-blocks, full-site-editing, block-patterns, block-styles, custom-colors, custom-menu, editor-style, threaded-comments, translation-ready
 */
 
 /* Sections ---------------------------------------------------------------- */
@@ -34,7 +33,9 @@ h1 em, h2 em, .wp-block-site-title em { color: var(--wp--preset--color--olive); 
 /* Header ------------------------------------------------------------------ */
 .am-header { min-height: 88px; }
 .am-header .wp-block-site-title a { text-decoration: none; }
-.am-header .wp-block-site-title, .am-header .wp-block-button__link { white-space: nowrap; }
+.am-header .wp-block-button__link { white-space: nowrap; }
+.am-header .wp-block-site-title { min-width: 0; overflow-wrap: anywhere; }
+.am-header .alignwide > .wp-block-group { flex-shrink: 0; }
 
 /* Mobile menu overlay */
 .wp-block-navigation__responsive-container.is-menu-open {
@@ -177,12 +178,6 @@ main > .am-section.am-hero { padding-block: 30px 100px; }
 .am-item__price { font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
 .am-item__note { grid-column: 1 / -1; color: var(--wp--preset--color--mute); font-size: 0.92rem; }
 
-/* Team -------------------------------------------------------------------- */
-
-/* Gallery ----------------------------------------------------------------- */
-
-/* Review quote ------------------------------------------------------------ */
-
 /* Visit ------------------------------------------------------------------- */
 .am-visit { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
 .am-visit > * { margin-block-start: 0 !important; }
@@ -192,6 +187,10 @@ main > .am-section.am-hero { padding-block: 30px 100px; }
 .am-hours td:last-child { text-align: right; }
 .am-book { border-radius: 24px; padding: 40px; }
 .am-book small { color: var(--wp--preset--color--mute); font-size: 0.92rem; }
+
+/* Classic captions (older posts) ----------------------------------------- */
+.wp-caption { max-width: 100%; }
+.wp-caption img { max-width: 100%; height: auto; }
 
 /* Footer ------------------------------------------------------------------ */
 .am-footer { border-top: 1px solid var(--wp--preset--color--line); padding-block: 46px; font-size: 0.95rem; color: var(--wp--preset--color--mute); }
@@ -208,7 +207,6 @@ main > .am-section.am-hero { padding-block: 30px 100px; }
 @media (max-width: 960px) {
 	.am-hero__grid, .am-split, .am-menu, .am-visit { grid-template-columns: 1fr; }
 	.am-collage { height: 460px; }
-
 }
 @media (max-width: 560px) {
 	main > .am-section { padding-block: 76px; }
@@ -223,9 +221,6 @@ main > .am-section.am-hero { padding-block: 30px 100px; }
 	.am-header .wp-block-group { gap: 14px !important; }
 	.am-header .wp-block-site-title { font-size: 1.6rem; }
 	.am-collage { height: 380px; }
-}
-@media (max-width: 480px) {
-	.woocommerce-js .am-header .wp-block-buttons { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
 	.am-band__track { animation: none; }

@@ -50,6 +50,12 @@ No. Atelier Mira Lite does not collect data, set cookies or send requests to oth
 == Changelog ==
 
 = 1.0.2 =
+* Removed the Theme URI, which pointed to the demo of the full version.
+* Removed leftover CSS from the full version (WooCommerce header rule and empty section headings).
+* Removed the "portfolio" tag.
+* Links inside posts, pages and comments are now underlined.
+* A long site title now wraps on phones instead of pushing the menu off the screen.
+* Image captions from older posts no longer make the page wider than a phone screen.
 * Better text contrast: the olive accent and the muted grey are a little darker, so small labels pass WCAG AA on every background.
 * Readme: how to create the Imprint page that the footer links to.
 
