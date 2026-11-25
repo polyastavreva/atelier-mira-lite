@@ -3,7 +3,7 @@ Theme Name: Atelier Mira Lite
 Author: Pavlina Stavreva
 Author URI: https://pavlinastavreva.ch/
 Description: A calm, editorial block theme for hair salons, barbers and beauty studios. The one-page home has a photo collage hero, a scrolling services band, a studio intro, a price menu with durations, and opening hours with a booking button. Everything is edited in the Site Editor, no page builder needed. Fonts are bundled with the theme.
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -191,6 +191,9 @@ main > .am-section.am-hero { padding-block: 30px 100px; }
 /* Classic captions (older posts) ----------------------------------------- */
 .wp-caption { max-width: 100%; }
 .wp-caption img { max-width: 100%; height: auto; }
+
+/* Long lines in preformatted text and code scroll inside the block, not the page. */
+pre { max-width: 100%; overflow-x: auto; }
 
 /* Footer ------------------------------------------------------------------ */
 .am-footer { border-top: 1px solid var(--wp--preset--color--line); padding-block: 46px; font-size: 0.95rem; color: var(--wp--preset--color--mute); }

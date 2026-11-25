@@ -3,7 +3,7 @@ Contributors: pavlinastavreva
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,9 @@ Appearance → Editor → Styles. The palette is Plum, Rose, Blush, Paper, Olive
 No. Atelier Mira Lite does not collect data, set cookies or send requests to other websites. The fonts are bundled with the theme. The only outside link is the "Book online" button, which points to the booking service you choose.
 
 == Changelog ==
+
+= 1.0.3 =
+* Long lines in preformatted text and code blocks now scroll inside the block instead of making the whole page wider than the screen.
 
 = 1.0.2 =
 * Removed the Theme URI, which pointed to the demo of the full version.
